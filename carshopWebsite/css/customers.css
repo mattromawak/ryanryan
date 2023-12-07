@@ -1,0 +1,177 @@
+body{
+    overflow: hidden;
+}
+.bg {
+    margin: 0%;
+    padding: 0%;
+}
+
+/* First Column */
+.headerContainers {
+    position: fixed;
+    top: 0; /* You can adjust the top position as needed */
+    width: 10%;
+    height: 740px;
+    background-color: #1D1D41;
+    color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+.navBtns {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 20px;
+}
+
+.navBtns a {
+    text-decoration: none;
+    color: #fff;
+    margin: 5px 0;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+
+.navBtns a:hover {
+    background-color: rgba(101, 101, 163, 0.5);
+}
+
+.adminProfile {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+}
+
+.adminPosition {
+    text-align: center;
+}
+
+.exitBut {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logoutBtn a {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 9px;
+    margin-top: 250px;
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #1D1D41;
+}
+
+.logoutBtn a:hover {
+    border: 1px solid red;
+}
+
+/* Second Column */
+.mainSection {
+    float: left;
+    width: 70%;
+    padding: 20px;
+    overflow: hidden;
+    max-height: 730px;
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-left: 150px;
+}
+.customerlistTable{
+    overflow-y:auto ;
+}
+.customertitle{
+    z-index: 5;
+    position: relative;
+}
+/* Apply these CSS styles to the customersTable class */
+.customersTable {
+    margin-bottom:30px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Apply these styles to table headers (th) and cells (td) within the customersTable */
+.customersTable th,
+.customersTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    width: 100px;
+    /* Set a fixed width for columns in pixels */
+}
+
+/* Apply these styles to table headers (th) within the customersTable */
+.customersTable th {
+    background-color: #1D1D41;
+    color: #fff;
+
+}
+
+/* Apply these styles to the caption within the customersTable */
+.customersTable caption {
+    background-color: #0D0D35;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Third Column */
+.addForm {
+    float: left;
+    width: 20%;
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    position: fixed;
+    margin-left:79.5% ;
+}
+
+.addcustomerForm p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.addcustomerTxt {
+    margin: 10px 0;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.cardescriptxtbox {
+    resize: vertical;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.addcustomerBtn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.addcustomerBtn:focus {
+    outline: none;
+}

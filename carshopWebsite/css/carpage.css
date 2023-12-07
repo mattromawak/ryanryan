@@ -1,0 +1,167 @@
+body{
+    overflow: hidden;
+}
+.bg {
+    margin: 0%;
+    padding: 0%;
+}
+
+/* First Column */
+.headerContainers {
+    float: left;
+    width: 10%;
+    height: 740px;
+    background-color: #1D1D41;
+    color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.navBtns {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 20px;
+}
+
+.navBtns a {
+    text-decoration: none;
+    color: #fff;
+    margin: 5px 0;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+.navBtns a:hover{
+    background-color: rgba(101, 101, 163, 0.5);
+}
+
+.adminProfile {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+}
+
+.adminPosition {
+    text-align: center;
+}
+
+.exitBut {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logoutBtn a {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 9px;
+    margin-top: 250px;
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #1D1D41;
+    cursor: pointer;
+}
+.logoutBtn{
+    cursor: pointer;
+}
+.logoutBtn a:hover{
+    cursor: pointer;
+    border: 1px solid red;
+}
+
+/* Second Column */
+.mainSection {
+    float: left;
+    width: 70%;
+    padding: 20px;
+    overflow: hidden;
+    max-height: 730px;
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.branchlistTable{
+    overflow-y:auto ;
+}   
+.carlistTable table {
+    width: 100%;
+    /* Set a fixed width in pixels */
+    height: 50px;
+    /* Set a fixed height in pixels */
+    border-collapse: collapse;
+}
+
+.carlistTable th,
+.carlistTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    width: 100px;
+    /* Set a fixed width for columns in pixels */
+}
+
+.carlistTable th {
+    background-color: #1D1D41;
+    color: #fff;
+}
+
+
+/* Third Column */
+.addForm {
+    float: right;
+    width: 20%;
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+}
+
+.addcarForm p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.addcarTxt {
+    margin: 10px 0;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.cardescriptxtbox {
+    resize: vertical;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.branchaddBtn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.branchaddBtn:focus {
+    outline: none;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
